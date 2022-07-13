@@ -1,9 +1,10 @@
-import e from "express";
+
 import React, { Component } from "react"; 
 
 class App extends Component {
 
-    addTask() {
+    addTask(e) {
+        e.preventDefault();
         console.log('Adding task')
     }
 
