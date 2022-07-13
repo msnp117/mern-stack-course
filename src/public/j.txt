@@ -1,0 +1,3 @@
+envia cualquier archivo al frontend
+cualquier archivo que el usuario puedda leer
+el codigo react sera convertido a codigo estandar 

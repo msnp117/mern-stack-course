@@ -1,0 +1,75 @@
+npm init --yes 
+crea un package json con congifuraciones basicas
+
+scripts
+permite ejecutar las dependencias con un comando
+
+nodemon
+reinicia el servidor cada vez que guardamos un cambio
+
+-D 
+dependencia de desarrollo
+modulo que nos ayuda a desarrollar el codigo
+pero no es necesario para la aplicacion
+
+para cualquier comando distinto a "start" 
+se usa "run" despues de npm y antes del script
+
+morgan
+registra y muestra por consola las peticiones que 
+llegan del navegador a app cliente
+
+REST API
+direcciones de internet donde app react
+podra hacer peticiones , crear guardar modificar eliminar datos
+
+mongoose
+permite conectar a la bd y definir como luciran los datos en bd
+
+Schema
+Esquema para modelar datos
+como se veran los datos
+
+modelar (nombre del modelo, estructura)
+como reutilizar el esquema
+
+callback
+funcion que se ejecuta cuando la tarea de la consulta
+de la base de datos has sido terminada
+
+async
+tarea que se ejecuta luego de terminar de hacer otra
+
+await
+la tarea va a tomar un tiempo
+tarea que async debe esperar
+
+carpeta app
+codigo de react
+codigo frontend
+
+webpack
+se encarga de traducir el codigo 
+no es necesario en un entorno real 
+
+webpack-cli 
+para que webpack internamente funcione
+
+webpack.config.js
+archivo de configuracion para webpack
+wepack va a leer la configuracion que le demos
+
+@babel/core
+se encarga de traducir nuestro codigo (jsx - js moderno)
+
+babel-loader
+para que webpack pueda tomar babel y hacerla funcionar internamente
+
+@babel/preset-(algo)
+extensiones para que babel sepa que traducir
+@babel/preset-react
+@babel/preset-env (js moderno)
+
+.babelrc
+para decirle a babel que sintaxis debe traducir
+
